@@ -16,6 +16,8 @@ matrix:
       python: 3.5
     - arch: amd64
       python: pypy
+    - arch: arm64
+      python: pypy3
     - arch: amd64
       python: pypy3
 install: pip install tox-travis
