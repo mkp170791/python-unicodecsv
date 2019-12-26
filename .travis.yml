@@ -3,17 +3,9 @@ language: python
 matrix:
   include:
     - arch: arm64
-      python: 2.6
-    - arch: amd64
-      python: 2.6
-    - arch: arm64
       python: 2.7
     - arch: amd64
       python: 2.7
-    - arch: arm64
-      python: 3.3
-    - arch: amd64
-      python: 3.3
     - arch: arm64
       python: 3.4
     - arch: amd64
@@ -22,12 +14,8 @@ matrix:
       python: 3.5
     - arch: amd64
       python: 3.5
-    - arch: arm64
-      python: pypy
     - arch: amd64
       python: pypy
-    - arch: arm64
-      python: pypy3
     - arch: amd64
       python: pypy3
 install: pip install tox-travis
